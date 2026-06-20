@@ -8,7 +8,7 @@ void main() {
     for (int i=0; i<n; i++){
         scanf(" %d", &a[i]);
     }
-    
+     
     int hash[15] = {0};
     for (int i=0; i<n; i++){
         hash[a[i]]++;
